@@ -1,0 +1,14 @@
+ body {
+/* 	background-image: url(http://previews.123rf.com/images/kritchanut/kritchanut1211/kritchanut121100142/16438149-Old-woven-wood-pattern-lomo-Stock-Photo-texture-mat-rattan.jpg);
+*/ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ }
+
+ .aboutme {
+ 	color: blue;
+ 	background-color: rgba(169, 169, 169, .5);
+ }
+
+ #images{
+ 	position: center;
+ }
