@@ -12,7 +12,7 @@ $(function() {
 
   
   $.ajax({
-    url: 'https://api.openweathermap.org/data/2.5/weather?zip=37210,us&appid=d3bd75156e1363b7b3c8e43c98744398',
+    url: 'http://api.openweathermap.org/data/2.5/weather?zip=37210,us&appid=d3bd75156e1363b7b3c8e43c98744398',
     dataType: 'jsonp',
     success: function(results) {
       var currentWeather = results.weather[0].id;
