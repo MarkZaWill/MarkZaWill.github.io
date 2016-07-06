@@ -1,0 +1,28 @@
+<div ng-controller="jsonkilla">
+<div class="subHead">
+<div>You Feel Scared?</div>
+<div> Have you tried any of these things?</div>
+
+<div>You could:</div>
+</div>
+
+<ul>
+	<li>Talk to someone close to you about what is making you scared or anxious.</li>
+	<li>Use deep breathing techniques</li>
+	<li>Write in your notebook or your journal</li>
+	<li>Get out and be with other people</li>
+	<li>Listen to some good music</li>
+	<li>Cut back on the caffeine</li>
+	<li>Take a time out</li>
+	<li ng-repeat="rawCopingSkill in rawCopingSkills">
+      <div>{{rawCopingSkill.skill}}</div>
+      <button ng-click= "deleteSkill(rawCopingSkill)">Delete</button>
+      <input ng-model="rawCopingSkill.skill" ng-change="rawCopingSkills.$save(rawCopingSkill)"></input>
+    </li>
+    <li> <input type="input" id="skill" ng-model="newSkill.skill">Skill</input>
+<button ng-click="addSkill()" >Add Your Own Skill!</button>
+    	
+    </li>	
+</ul>
+
+</div>
