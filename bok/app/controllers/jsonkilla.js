@@ -35,7 +35,7 @@ MarkApp.controller("jsonkilla",
 
         });
       rawCopingSkills= rawCopingSkills.filter(skills => skills.id === $routeParams.skillsId)[0];
-      };
+      },
       // Handle reject() from the promise
       err => console.log(err)
     );
@@ -44,12 +44,11 @@ MarkApp.controller("jsonkilla",
       This function is bound to an ng-click directive
       on the button in the view
     */
-`
+
      $scope.deleteSkill = function(rawCopingSkill){ 
       $scope.rawCopingSkills.$remove(rawCopingSkill).then(() => $location.url("#/mood/"));}   
     
-     // $scope.deleteSkill = () => $http
-     //    .delete(`https://be-ok.firebaseio.com/copingSkills/${$routeParams.skillsId}.json`)
+
 
    $scope.addSkill = function (newSkill) {
     let user = authFactory.getUser();
