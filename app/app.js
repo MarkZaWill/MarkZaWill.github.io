@@ -30,6 +30,10 @@ PersonalSite.config(["$routeProvider",
       when("/about", {
         templateUrl: "partials/AboutMe.html",
         // controller: "LoginCtrl"
+      }).
+      when("/blog", {
+        templateUrl: "partials/blog.html",
+
       }).  
       otherwise({
         redirectTo: "/"
