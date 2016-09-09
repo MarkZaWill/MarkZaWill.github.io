@@ -31,7 +31,7 @@ PersonalSite.config(["$routeProvider",
         templateUrl: "partials/AboutMe.html",
         // controller: "LoginCtrl"
       }).
-      when("/blog", {
+      when("/current", {
         templateUrl: "partials/blog.html",
 
       }).  
