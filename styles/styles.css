@@ -44,3 +44,10 @@
 	float: right;
 	clear: all;
  }
+
+ .twitterbox {
+ 	display: block;
+ 	text-align: center;
+ 	padding: 30px;
+ 	border: 30px;
+ }
