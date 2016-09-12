@@ -29,5 +29,18 @@
 
  .navBar {
  	background-color: lightgrey;
+ }
 
+.link{
+	
+	float:left;
+
+}
+
+ .linky {
+ 	
+	display: inline;
+	margin-left: 30px;
+	float: right;
+	clear: all;
  }

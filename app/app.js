@@ -17,7 +17,7 @@ PersonalSite.config(["$routeProvider",
 
       when("/", {
         templateUrl: "partials/Welcome.html",
-         // controller: "LoginCtrl"
+         // controller: "WelcomeController"
       }).
       when("/psych", {
         templateUrl: "partials/Psychology.html",
