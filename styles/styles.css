@@ -51,3 +51,7 @@
  	padding: 30px;
  	border: 30px;
  }
+
+.mediaimg{
+	max-height: 200px;
+}
